@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SplashScreen : MonoBehaviour 
 {
 	Image uiImage;
+	public GameObject;
 	Canvas parentCanvas;
 
 	[SerializeField]
