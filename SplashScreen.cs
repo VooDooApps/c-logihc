@@ -33,7 +33,7 @@ public class SplashScreen : MonoBehaviour
 
 		uiImage = GetComponentInChildren<Image>();
 
-		uiImage.sprite = images[0];
+		uiImage.sprite = images[1];
 
 		StartCoroutine(CycleImages());
 
