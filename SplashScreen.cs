@@ -13,15 +13,15 @@ public class SplashScreen : MonoBehaviour
 
 	[SerializeField]
 	bool clickToProceed;
+// helpful script
+	[SerializeField]
+	float fadeTime; 
 
 	[SerializeField]
-	float fadeTime; // amount of time it takes to fade an image
+	float displayTime; 
 
 	[SerializeField]
-	float displayTime; // amount of time a non-transparent image displays before fading out
-
-	[SerializeField]
-	float transparentTime; // amount of time an image stays transparent before fading in
+	float transparentTime; 
 
 	void Start () 
 	{
